@@ -34,6 +34,29 @@ Luego invocar la función de forma iterativa cinco (5) veces, solicitando en cad
 La “llamada iterativa de la función” implica emplear un bucle. Como se solicita una cantidad determinada, 
 se recomienda emplear for. */
 
+//--------- MI CODIGO -----------//
+
+/* function redondear (n) {
+    
+for (let i = 0; i < 5; i++) {
+   let entrada = prompt("numero decimal")
+   alert(Math.round(entrada)) 
+   }
+}
+
+redondear() */
+
+// ------------------ RESPUESTA ------------------//
+
+/* function redondeo(valor){
+   return Math.round(valor)
+}
+for (let index = 0; index < 5; index++) {
+   let entrada = prompt("INGRESAR NUMERO");
+   alert(redondeo(entrada));
+}
+ */
+
 
 
 //ACTIVIDAD 3
@@ -47,6 +70,18 @@ Luego invocar la función de forma iterativa cinco (5) veces, solicitando en cad
 sobre dicho precio, y sumarlo; por ejemplo: si el precio es 100, el 20% es 20, entonces el precio final 
 es 100+20 = 120.
   */
+
+function impuesto(precio, porcentaje) {
+   return precio * 100/porcentaje
+}
+for ( let i = 0; i < 5; i++) {
+   let n1 = prompt('ingresar precio')
+   let n2 = prompt('ingresar porcentaje')
+
+}
+
+
+
 
 
 //ACTIVIDAD 4
