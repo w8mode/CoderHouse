@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Capuletto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Capuletto</a>
+            <input type="checkbox" id="menu">
+            <label class="menu"><img src="img/menu2.svg" class="menu-icono" style="width: 20px"> </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Agregar Producto</a></li>
+                    <li><a href="#">Quitar Producto</a></li>
+                    <li><a href="#">Ver Stock</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/cart.svg" id="img-carrito">
+                        <div id="carrito">
+                            <table id="cart-list">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="carrito-vacio" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div> <!-- fin div principal menu-->
+
+        <div class="header-content container"> <!-- comienzo contenido de header  -->
+            <h1>Capuletto</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <div class="botons">
+                <a href="#" class="btn-1">Mas informacion</a>
+                <a href="#" class="btn-1">Menu</a>
+            </div>
+
+            <div class="socials-1">
+                <img src="img/ig.svg">
+                <img src="img/wsp.svg">
+            </div>
+            <a href="#lista">
+                <img class="arrow" src="img/arrow.svg" style="width: 50px;">
+            </a>
+        </div>
+    </header>
+
+    <section class="recetas container"> <!-- seccion fuera del header -->
+
+        <div class="recetas-1">
+            <h3> 7 Modos de preparar pastas </h3>
+            <hr>
+            <p>Recetas</p>
+        </div>
+        <div class="recetas-2">
+            <h3>7 <br> recetas <br> de salsas</h3>
+        </div>
+
+    </section>
+
+
+    <section class="platillo container" id="lista"> <!-- section platos con libreria -->
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Sorrentios</h3>
+                        <p class="precio">$500</p>
+                        <img src="img/sorrentinos.jpeg">
+                        <p> TEXTO EJEMPLO </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Ravioles</h3>
+                        <p class="precio">$400</p>
+                        <img src="img/ravioles.jpeg">
+                        <p> TEXTO EJEMPLO </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Pizzas</h3>
+                        <p class="precio">$600</p>
+                        <img src="img/pizzas.jpeg">
+                        <p> TEXTO EJEMPLO </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Ensaladas</h3>
+                        <p class="precio">$300</p>
+                        <img src="img/ensaladas.jpeg">
+                        <p> TEXTO EJEMPLO </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer container">
+        
+        <div class="links">
+            <div class="link">
+                <h3>Redes</h3>
+                <p>
+                    LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM 
+                    LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM 
+                </p>
+                <div class="socials-2">
+                    <img src="img/ig.svg" alt="">
+                    <img src="img/wsp.svg" alt="">
+                </div>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <form>
+                    <input type="text" placeholder="Nombre" class="inp">
+                    <input type="email" placeholder="Email" class="inp">
+                    <textarea class="inp"></textarea>
+                    <input class="btn-4" type="submit" value="Enviar">
+                </form>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src='app.js'></script>
+</body>
+
+</html>

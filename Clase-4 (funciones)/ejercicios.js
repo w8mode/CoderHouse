@@ -10,7 +10,7 @@ La actividad propone agrupar en funciones las instrucciones de 1) entrada. 2) pr
  y 3) salida. La llamada de las funciones debe coincidir con dicho orden.
   */
 
-/* function entrada() {
+function entrada() {
    return prompt('ingrese valor:')
 }
 
@@ -23,7 +23,7 @@ function salida(valor) {
 }
 
 salida(procesamiento(entrada()))
- */
+
 
 //ACTIVIDAD 2
 /* Codificar una función que reciba un número decimal por parámetro, y lo retorne redondeado al entero

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Affter 2</title>
+  </head>
+  <style>
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        padding: .5rem;
+        cursor: pointer;
+    }
+    li:hover {
+        background-color: rgba(0, 0, 0, .3);
+    }
+    .item {
+        display: block;
+    }
+    
+  </style>
+  <body>
+<header>
+    <img src="npc.png" style="width: 50px">
+    <h1>¡Hola Aventurero!</h1>
+    <h2>¿Que querés comerciar?</h2>
+    <ul>
+        <li onclick="comprar(pocion)">Poción de Vida</li>
+        <li onclick="comprar(espada)">Espada</li>
+        <li onclick="comprar(escudo)">Escudo</li>
+    </ul>
+</header>
+<section>
+    <hi>Mi Mochila</hi>
+    <ul id="mochila">
+    <!-- Acá vamos a cargar los items que vayamos comprando -->
+    </ul>
+    <h1>Oro: <span id="oro"></span></h1>
+</section>
+    <script src="affter.js"></script>
+  </body>
+</html>
